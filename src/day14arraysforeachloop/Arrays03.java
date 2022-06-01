@@ -8,20 +8,17 @@ public class Arrays03 {
 
 //        Create an Array by getting array elements from user
 
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("How many elements will you store inside the array?");
-        int len= scan.nextInt();
+        int len = scan.nextInt();
 
-        String sArray[]= new String[len];
+        String sArray[] = new String[len];
 
-        for(int i=0; i<len; i++){
+        for (int i = 0; i < len; i++) {
 
             System.out.println("Enter a String");
-            sArray[i]=scan.next();
+            sArray[i] = scan.next();
         }
         System.out.println(Arrays.toString(sArray));
-
-
-
     }
 }
